@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "run": "tsc; node index.js"
+    "runLinux": "tsc; node index.js",
+    "runWindows": "powershell.exe -Command tsc; node index.js"
   },
   "keywords": [],
   "author": "",
